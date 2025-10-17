@@ -15,19 +15,17 @@ This project helps calculate a student's GPA for a single semester and CGPA over
 
 ## Calculation Formulas
 
-### GPA Calculation
+## GPA Calculation
 
-\[
-\text{GPA} = \frac{\sum (\text{Credit Hours} \times \text{Grade Point})}{\text{Total Credit Hours}}
-\]
+GPA = (Sum of (Credit Hours × Grade Point)) / (Total Credit Hours)
 
 **Example:**
 
 | Course   | Credits | Grade Point | Points |
 |----------|---------|-------------|--------|
-| Math     |    3    |   4.0       | 12.0   |
-| English  |    4    |   3.5       | 14.0   |
-| Science  |    2    |   3.7       | 7.4    |
+| Math     |    3    |     4.0     | 12.0   |
+| English  |    4    |     3.5     | 14.0   |
+| Science  |    2    |     3.7     | 7.4    |
 
 GPA = (12.0 + 14.0 + 7.4) / (3 + 4 + 2) = 33.4 / 9 = **3.71**
 
@@ -35,23 +33,20 @@ GPA = (12.0 + 14.0 + 7.4) / (3 + 4 + 2) = 33.4 / 9 = **3.71**
 
 ### CGPA Calculation
 
-\[
-\text{CGPA} = \frac{\sum (\text{Credit Hours} \times \text{Grade Point})}{\text{Total Credit Hours (All Semesters)}}
-\]
+**CGPA Calculation:**
 
+CGPA = (Sum of (Credit Hours × Grade Point)) / (Total Credit Hours in All Semesters)
+
+**Example:**
 For two semesters with GPAs 2.81 (17 credits) and 1.92 (18 credits):
 
-CGPA = (47.8 + 34.5) / (17 + 18) = 82.3 / 35 = **2.35**
+CGPA = (47.8 + 34.5) / (17 + 18) = 82.3 / 35 = 2.35
 
----
+**CGPA Percentage (Scale of 10):**
 
-### CGPA Percentage (Scale of 10)
+CGPA% = CGPA × 9.5
 
-\[
-\text{CGPA\%} = \text{CGPA} \times 9.5
-\]
-
-**Example**: CGPA = 8.1, Percentage = 8.1 × 9.5 = **76.95%**
+Example: CGPA = 8.1, Percentage = 8.1 × 9.5 = 76.95%
 
 ---
 
